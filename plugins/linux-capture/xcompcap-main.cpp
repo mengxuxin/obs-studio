@@ -149,7 +149,7 @@ struct XCompcapMain_private
 	bool include_border;
 	bool exclude_alpha;
 
-	double window_check_time;
+	double window_check_time = 0.0;
 
 	uint32_t width;
 	uint32_t height;
